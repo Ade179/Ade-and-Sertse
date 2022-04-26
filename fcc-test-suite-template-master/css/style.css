@@ -1,0 +1,108 @@
+#ovrly {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(33, 122, 93, 0.8);
+    position: fixed;
+    margin: -100%;
+    padding: 100%;
+    z-index: -2;
+}   
+
+body {
+    padding: 20px;
+}
+
+#bg_img {
+    /* background-image: url("https://images.theconversation.com/files/169499/original/file-20170516-11945-oc673j.jpg"); */
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    z-index: -300;
+    width: 100%;
+    margin: -30px;
+
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple;
+}
+
+#title {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#description {
+    color: darkwhite;
+    text-align: center;
+    line-height: 2;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+
+#container {
+    position: relative;
+    margin-left: 300px;
+    margin-right: 300px;
+    background: rgb(0, 0, 0, 0.6);
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-weight: 400;
+    line-height: 2.4;
+    color: white;
+    border-radius: 2%;
+    overflow: scroll;
+}
+
+#name,
+#email,
+#number,
+#dropdown,
+#favorite {
+    width: 100%;
+    padding: 10px;
+    border: solid gray 1px;
+    border-radius: 7px;
+}
+
+button {
+    width: 70%;
+    padding: 12px;
+    margin: 20px;
+    color: rgb(0, 139, 23);
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 6px rgb(0, 133, 40);
+}
+
+button:hover {
+    background: rgb(0, 133, 40);
+    color: white;
+    font-size: 18px;
+}
+
+#checkbox {
+    vertical-align: bottom;
+    position: relative;
+    *overflow: hidden;
+}
+
+span {
+    font-size: 12px;
+}
+
+#comments {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
